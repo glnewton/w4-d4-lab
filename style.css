@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Roboto;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  width: auto;
+  height: auto;
+  z-index:-1;
+   /*to edit the opacity effect change the percentage below */
+  filter:opacity(60%);
+  transform: translateX(10%) translateY(40%);}
+
+body {
+  background-color: lightgrey;
+  font-size: 16px;
+  font-family: Roboto;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin: 3rem 0px;
+}
+
+
+img {
+  width: 100%;
+  border-radius: 1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.side-bar {
+  float: left;
+  width: 15%;
+}
+
+.main {
+  float: left;
+  width: 70%;
+  text-align: center;
+}
+
+.blog-post {
+  border-radius: 1rem;
+  height: 250px;
+  margin: 3rem;
+  padding: 2rem;
+}
+
+.blog-post > h1 {
+  color: #FFF;
+  margin-bottom: 3rem;
+}
+
+.blog-post > p {
+  font-size: 1.5rem;
+}
+
+.family-photo {
+  width: 100%;
+}
+
+.purple {
+  background-color: rebeccapurple;
+}
+
+.red {
+  background-color: #A00;
+}
+
+.special-title {
+  background-color: #000;
+  color: #FFF;
+  border-radius: 2rem;
+  height: 4rem;
+  width: 70%;
+  line-height: 4rem;
+  margin: auto;
+  font-size: 1.5rem;
+}
+
+#quote-title:hover {
+  background-color: #A00;
+}
+
+#quote-of-the-day {
+  margin: 2rem 0px;
+  font-size: 1.5rem;
+}
+
+#dom-adventures {
+  margin-top: 3rem;
+}
